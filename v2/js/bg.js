@@ -1,0 +1,17 @@
+//选择语言按钮
+$(".li").click(function(){
+		$(".li").css("background","none");
+		$(".li").css("color","white");
+		$(this).css("background-color","white");
+		$(this).css("color","#007AFF");		
+});
+//判断是否为浏览器打开
+if(navigator.userAgent.indexOf("Windows")>-1){
+	console.log(111111);
+	$("body").css("width","100%");
+	$("html").css("font-size","25px");
+	$(".boxmin").css("width","500px");
+	$(".boxmin").css("margin","auto");
+	$(".boxmin").css("left","0");
+	$(".boxmin").css("right","0");	
+}

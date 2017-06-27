@@ -1,0 +1,46 @@
+.all{
+	width: 100%;
+	height: 35rem;
+	position: relative;
+}
+.all .bg1{
+	width: 100%;
+	height: 35rem;
+}
+.content{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 4.25rem;
+}
+.content p{
+	color: white;
+}
+.content p:nth-child(1){
+	font-size: 0.875rem;
+}
+.content p:nth-child(2){
+	font-size: 0.75rem;
+	margin-bottom: 2rem;
+}
+.content ul{
+	width: 100%;
+}
+.content ul li{
+	width: 7.75rem;
+	height: 1.875rem;
+	border: 1px white solid;
+	border-radius: 0.9375rem ;
+	line-height: 1.875rem;
+	color: white;
+	margin: 1rem auto;
+	/*margin:1rem 32% ;*/
+	/*246 60 640 406 128 112*/
+}
+.all a{
+	display: inline-block;
+	margin-top: 2rem;
+}
+.all a img{
+	width: 12.6875rem;	
+}

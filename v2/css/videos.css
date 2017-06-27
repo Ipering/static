@@ -1,0 +1,97 @@
+/*头部*/
+header{
+	width: 100%;
+	height: 2.2rem;
+	background: rgb(0,159,234);
+	position: fixed;
+}
+.leftImg{
+	display: inline-block;
+	text-align: center;
+	width: 3.125rem;
+	height: 100%;
+	line-height: 2.6rem;
+	border-right:0.0625rem rgb(4,105,152) solid ;	
+}
+.leftImg img{
+	width: 2.125rem;
+}
+.aboutu{
+	display: inline-block;
+	height: 100%;
+	line-height: 2.3rem;
+	color: white;
+	vertical-align: top;
+	margin-left: 0.4rem;
+	font-size: 0.75rem;
+}
+/*优酷精选*/
+.void{
+	width: 95.5%;
+	padding:2rem 0.43rem 0.87rem;
+	overflow: hidden;
+}
+.voides{
+	margin-top: 1rem;
+	width: 100%;
+}
+.voides ul{
+	width: 100%;
+}
+.voides ul li {
+	width: 49%;
+	float: left;
+	margin-bottom: 1.125rem;
+}
+.voides ul li:nth-child(n+1){
+	margin-right: 1%;
+}
+.voides ul li img{
+	width: 100%;
+}
+.voides ul li p:nth-child(2){
+	margin-top: 0.5rem;
+	font-size: 0.7rem;
+	color: #333;
+}
+.voides ul li p:nth-child(3){
+	font-size: 0.625rem;
+	color: #999;
+}
+/*底部*/
+/*分割*/
+.spli{
+	width: 100%;
+	height: 1.56rem;
+	background: rgb(247,247,247);
+	color: #999;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 1.56rem;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	height: 5.56rem;
+	
+}
+footer span{
+	display: inline-block;
+	font-size: 0.625rem;
+	color: #666666;
+	margin-top: 7.5%;
+}
+footer p{
+	font-size: 0.5rem;
+	color: rgb(175,175,175);
+}
+
+
+
+
+
+
+
+
+
+
